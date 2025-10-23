@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Software Hackathon Orientation</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      background-color: #f2f6fc;
+      color: #222;
+      margin: 0;
+      padding: 0;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      background: linear-gradient(90deg, #004aad, #0077ff);
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+      border-bottom: 5px solid #004aad;
+    }
+
+    header h1 {
+      font-size: 2.8em;
+      margin: 0;
+      animation: slideDown 1s ease;
+    }
+
+    header p {
+      font-size: 1.1em;
+      margin-top: 10px;
+      font-style: italic;
+      animation: fadeIn 1.5s ease;
+    }
+
+    section {
+      background: white;
+      width: 90%;
+      max-width: 1000px;
+      margin: 30px auto;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+      overflow: hidden;
+    }
+
+    section:hover {
+      transform: scale(1.01);
+    }
+
+    details {
+      padding: 20px 25px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    summary {
+      font-size: 1.3em;
+      font-weight: bold;
+      color: #004aad;
+      border-left: 5px solid #0077ff;
+      padding-left: 10px;
+      margin-bottom: 10px;
+      list-style: none;
+      outline: none;
+      position: relative;
+    }
+    summary::after {
+      content: "➕";
+      position: absolute;
+      right: 15px;
+      color: #0077ff;
+      font-size: 1.2em;
+      transition: transform 0.3s ease;
+    }
+
+    details[open] summary::after {
+      content: "➖";
+      transform: rotate(180deg);
+    }
+
+    details[open] summary {
+      color: #0077ff;
+    }
+
+    ul {
+      line-height: 1.8;
+      margin: 10px 0 0 20px;
+      animation: fadeIn 0.6s ease;
+    }
+
+    footer {
+      background-color: #004aad;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      font-size: 0.75em;
+      letter-spacing: 0.5px;
+    }
+
+    .highlight {
+      font-weight: bold;
+      color: #0077ff;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes slideDown {
+      from { opacity: 0; transform: translateY(-30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Software Hackathon Team Orientation</h1>
+    <br>
+    <p>Led by Vedant – Well Experienced and Passionate Coder</p>
+    <p><em>Innovate | Code | Conquer</em></p>
+  </header>
+
+  <section>
+    <details open>
+      <summary>1. Introduction</summary>
+      <ul>
+        <li>Orientation led by Vedant (experienced and passionate coder).</li>
+        <li>Theme: <span class="highlight">Innovate | Code | Conquer</span>.</li>
+      </ul>
+    </details>
+  </section>
+
+  <section>
+    <details>
+      <summary>2. Agenda / Roadmap</summary>
+      <ul>
+        <li>Overview of hackathon journey.</li>
+        <li>Focus areas: prerequisites, tools, web development, Python development, applications, and self-learning.</li>
+      </ul>
+    </details>
+  </section>
+
+  <section>
+    <details>
+      <summary>3. Key Discussions</summary>
+      <ul>
+        <li><strong>Prerequisites:</strong> Basic computer knowledge, programming fundamentals, problem-solving mindset, logic building, and algorithms.</li>
+        <li><strong>VSCode Training:</strong> Installation, file handling, extensions, keyboard shortcuts.</li>
+        <li><strong>Web Development:</strong> HTML, CSS, JavaScript, React.js, Node.js, (optional) P5.js.</li>
+        <li><strong>Python Development:</strong> Fundamentals, DSA, and regular home practice.</li>
+        <li><strong>Applications of Python:</strong> Modules, Tkinter, Flask/Django, optional PyQT.</li>
+        <li><strong>Self-Learning:</strong> LeetCode practice, internal hackathons, and learning more languages.</li>
+      </ul>
+    </details>
+  </section>
+
+  <section>
+    <details>
+      <summary>4. Goals & Targets</summary>
+      <ul>
+        <li>Complete screening before Semester 1 ESE.</li>
+        <li>Finish Web Development & Apps by <span class="highlight">February 2026</span>.</li>
+        <li>Finish Python & Apps by <span class="highlight">July 2026</span>.</li>
+      </ul>
+    </details>
+  </section>
+
+  <section>
+    <details>
+      <summary>5. Conclusion</summary>
+      <ul>
+        <li>May this hackathon ignite creativity, strengthen teamwork, and guide us toward innovation.</li>
+        <li><strong>यशस्वी भव (Yashasvi Bhava – Be Successful)</strong></li>
+      </ul>
+    </details>
+  </section>
+
+  <footer>
+    <p>© 2025 Software Hackathon Team | Designed by Vedant</p>
+  </footer>
+
+</body>
+</html>
